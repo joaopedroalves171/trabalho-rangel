@@ -1,0 +1,37 @@
+
+$blue-1: #007bff;
+$blue-2: #0000CD;
+$blue-3:#0000FF;
+$blue-4: #000099;
+
+$red-1: #FF0000;
+$red-2: #FF6347;
+$red-3:#8B0000;
+$red-4: #FA8072;
+
+$gray-1:#808080;
+$gray-2:#DCDCDC;
+$gray-3:#363636;
+$gray-4:#A9A9A9;
+
+$green-1:#008000;
+$green-2:#00FF7F;
+$green-3:#F2DE9C;
+$green-4:#228B22;
+
+$white-1:#F5F5F5;
+$white-2:#F7EBC3;
+
+$black-1:#000000;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius1;
+     -moz-border-radius: $radius2;
+      -ms-border-radius: $radius3;
+          border-radius: $radius4;
+}
+@mixin font($font) {
+    font-family: $font--1;
+    font-size: $font-2;
+    
+}

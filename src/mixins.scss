@@ -1,0 +1,6 @@
+@mixin transition($properties) {
+    -webkit-transition: $properties1;
+       -moz-transition: $properties2;
+        -ms-transition: $properties3;
+            transition: $properties4;
+  }

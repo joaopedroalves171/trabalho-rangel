@@ -1,0 +1,13 @@
+.button {
+    @include border-radius(5px);
+    background-color: $black-1;
+    color: $white-1;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    @include transition(background-color.3s ease);
+  
+    &:hover {
+      background-color: darken($red-1, 5%);
+    }
+  }
