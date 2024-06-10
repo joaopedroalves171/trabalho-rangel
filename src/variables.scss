@@ -34,35 +34,3 @@ $telamedia: 768px;
 $telagrande: 1024px;
 
 
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius1;
-     -moz-border-radius: $radius2;
-      -ms-border-radius: $radius3;
-          border-radius: $radius4;
-}
-@mixin font($font) {
-    font-family: $font-f;
-    font-size: $font-s;   
-}
-@mixin padding($padding) {
-    padding: $pd;
-    padding-top: $pd-t;
-    padding-left: $pd-l;
-    padding-right: $pd-r;
-}
-@mixin margin($margin) {
-    margin: $mg;
-    margin-top: $mg-t;
-    margin-left: $mg-l;
-    margin-right: $mg-r;
-}
-@mixin background($background) {
-    background-color: $bg-c;
-    background-image: $bg-i;
-    background-size: $bg-s;
-}
-@mixin flex-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
