@@ -29,6 +29,10 @@ $font-S: Sans-serif;
 $font-m: monospace;
 $font-c: courier;
 
+$telapequena: 480px;
+$telamedia: 768px;
+$telagrande: 1024px;
+
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius1;
@@ -56,4 +60,9 @@ $font-c: courier;
     background-color: $bg-c;
     background-image: $bg-i;
     background-size: $bg-s;
+}
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
