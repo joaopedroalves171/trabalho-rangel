@@ -1,4 +1,4 @@
-Miniframework feito em Sass é uma ótima escolha para criar projetos web com estilos elegantes e reutilizáveis. Instruções de instalação para o contexto do Sass:
+Instruções de instalação para o contexto do Sass:
 
 1.	Clonar o Repositório:
    Abra o terminal ou prompt de comando e navegue até o diretório onde você deseja baixar o miniframework. Execute o seguinte comando para clonar o repositório:
