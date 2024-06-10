@@ -24,6 +24,12 @@ $white-2:#F7EBC3;
 
 $black-1:#000000;
 
+$font-a: arial;
+$font-S: Sans-serif;
+$font-m: monospace;
+$font-c: courier;
+
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius1;
      -moz-border-radius: $radius2;
@@ -31,7 +37,23 @@ $black-1:#000000;
           border-radius: $radius4;
 }
 @mixin font($font) {
-    font-family: $font--1;
-    font-size: $font-2;
-    
+    font-family: $font-f;
+    font-size: $font-s;   
+}
+@mixin padding($padding) {
+    padding: $pd;
+    padding-top: $pd-t;
+    padding-left: $pd-l;
+    padding-right: $pd-r;
+}
+@mixin margin($margin) {
+    margin: $mg;
+    margin-top: $mg-t;
+    margin-left: $mg-l;
+    margin-right: $mg-r;
+}
+@mixin background($background) {
+    background-color: $bg-c;
+    background-image: $bg-i;
+    background-size: $bg-s;
 }
